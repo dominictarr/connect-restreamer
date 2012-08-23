@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/dominictarr/connect-restreamer.png)](http://travis-ci.org/dominictarr/connect-restreamer)
 #connect-restreamer
 
 connect's bodyParser has a problem when using it with a proxy. It gobbles up all the

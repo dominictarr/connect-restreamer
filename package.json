@@ -5,4 +5,5 @@
 , "repository": 
   { "type": "git"
   , "url": "https://github.com/dominictarr/connect-restreamer.git" }
+, "license": "MIT"
 , "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)" }

@@ -12,7 +12,7 @@ module.exports = function (options) {
       if(req[options.property]) {
         if('function' === typeof options.modify)
           req[options.property] = options.modify(req[options.property])
-        req.emit('data', options.stringify(req.body))
+        req.emit('data', options.stringify(req[options.property]))
       }
       req.emit('end')
     })

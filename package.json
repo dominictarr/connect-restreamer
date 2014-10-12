@@ -1,9 +1,12 @@
-{ "name": "connect-restreamer"
-, "version": "1.0.0"
-, "description": "re-stream a parsed body so that it can be proxied."
-, "homepage": "http://github.com/dominictarr/connect-restreamer"
-, "repository": 
-  { "type": "git"
-  , "url": "https://github.com/dominictarr/connect-restreamer.git" }
-, "license": "MIT"
-, "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)" }
+{
+  "name": "connect-restreamer",
+  "version": "1.0.1",
+  "description": "re-stream a parsed body so that it can be proxied.",
+  "homepage": "http://github.com/dominictarr/connect-restreamer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dominictarr/connect-restreamer.git"
+  },
+  "license": "MIT",
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)"
+}

@@ -8,7 +8,7 @@ module.exports = function (options) {
     req.removeAllListeners('data')
     req.removeAllListeners('end')
     if(req.headers['content-length'] !== undefined){
-      req.headers['content-length'] = options.stringify(req[options.property]).length
+      req.headers['content-length'] = Buffer.byteLength(options.stringify(req[options.property]), 'utf8')
     }
     next()
     process.nextTick(function () {

@@ -1,6 +1,6 @@
 {
   "name": "connect-restreamer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "re-stream a parsed body so that it can be proxied.",
   "homepage": "http://github.com/dominictarr/connect-restreamer",
   "repository": {
